@@ -1,20 +1,26 @@
-//
-//  ViewController.swift
-//  CezarUI
-//
-//  Created by Артем on 6/25/19.
-//  Copyright © 2019 Артем. All rights reserved.
-//
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var textLabel: UITextField!
+    @IBOutlet weak var keyText: UITextField!
+    @IBOutlet weak var labelResult: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
+    @IBAction func cezarPush(_ sender: UIButton) {
+        
+        for value in textLabel?.text ?? "" {
+            
+            
+            
+        }
+        
+    }
+    
+    
 }
 
